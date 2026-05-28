@@ -34,7 +34,7 @@ import re
 import sys
 
 # ─────────────────────────────────────────
-BASE_URL  = "http://172.16.51.144"
+BASE_URL  = "http://rack_health_monitor-URL"
 LOGIN_URL = f"{BASE_URL}/login"
 RACKS_URL = f"{BASE_URL}/racks"
 # ─────────────────────────────────────────
@@ -405,3 +405,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+  
